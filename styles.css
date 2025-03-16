@@ -1,17 +1,61 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais do body */
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f5ee;
   text-align: center;
   margin: 0;
-  padding: 0;
+  padding-top: 70px; /* Garante que o conteúdo não fique atrás do header */
 }
 
+/* Estilização do Header */
 header {
   background-color: #5a3d2b;
-  color: white;
-  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilização da navegação */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: #3c271b;
+  color: #f9f5ee;
+}
+
+/* Seção de informações do animal */
 .animal-info {
   max-width: 600px;
   margin: 40px auto;
@@ -37,6 +81,7 @@ header {
   margin: 15px 0;
 }
 
+/* Botão "Saiba Mais" */
 .wiki-btn {
   display: inline-block;
   padding: 10px 20px;
@@ -51,9 +96,27 @@ header {
   background-color: #3c271b;
 }
 
+/* Estilização do rodapé */
 footer {
   margin-top: 30px;
   padding: 10px;
   background-color: #5a3d2b;
   color: white;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul li a {
+    display: block;
+  }
+
+  .animal-info {
+    width: 90%;
+    padding: 15px;
+  }
 }
