@@ -6,24 +6,25 @@
 }
 
 /* Estilos gerais do body */
+html,
 body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   font-family: Arial, sans-serif;
   background-color: #f9f5ee;
   text-align: center;
-  margin: 0;
-  padding-top: 70px; /* Garante que o conteúdo não fique atrás do header */
 }
 
 /* Estilização do Header */
 header {
-  background-color: #5a3d2b;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 1000;
   padding: 15px 0;
-  text-align: center;
+  background-color: #5a3d2b;
+  z-index: 1000;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -33,10 +34,6 @@ nav ul {
   display: flex;
   justify-content: center;
   gap: 30px;
-}
-
-nav ul li {
-  display: inline;
 }
 
 nav ul li a {
@@ -55,14 +52,26 @@ nav ul li a.active {
   color: #f9f5ee;
 }
 
+/* Conteúdo Principal */
+main {
+  flex: 1; /* Faz o main ocupar todo o espaço restante */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px; /* Evita sobreposição com o header */
+}
+
 /* Seção de informações do animal */
 .animal-info {
+  display: flex;
+  flex-direction: column;
   max-width: 600px;
-  margin: 40px auto;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  gap: 20px;
 }
 
 .animal-info img {
@@ -78,7 +87,6 @@ nav ul li a.active {
 .animal-info p {
   font-size: 18px;
   color: #333;
-  margin: 15px 0;
 }
 
 /* Botão "Saiba Mais" */
@@ -96,12 +104,14 @@ nav ul li a.active {
   background-color: #3c271b;
 }
 
-/* Estilização do rodapé */
+/* Estilização do Rodapé */
 footer {
-  margin-top: 30px;
+  width: 100%;
   padding: 10px;
   background-color: #5a3d2b;
   color: white;
+  text-align: center;
+  margin-top: auto;
 }
 
 /* Responsividade para telas menores */
@@ -109,10 +119,6 @@ footer {
   nav ul {
     flex-direction: column;
     gap: 15px;
-  }
-
-  nav ul li a {
-    display: block;
   }
 
   .animal-info {
