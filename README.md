@@ -1,21 +1,28 @@
-# Lobo-Guará - Página Informativa
+# 🐺 Lobo-Guará  
 
-Este repositório contém uma página web responsiva sobre o **Lobo-Guará** (*Chrysocyon brachyurus*), 
-desenvolvida como parte do trabalho para a disciplina **Responsive Web Development (Univali - SC 2025)**, 
-ministrada pelo professor **Alex Luciano Roesler Rese**.
+## 📌 Sobre o Projeto  
+Este projeto consiste em uma página web responsiva dedicada ao **Lobo-Guará** (*Chrysocyon brachyurus*), desenvolvida como parte da disciplina **Responsive Web Development (Univali 2025)**. O objetivo é criar uma estrutura semântica utilizando **HTML5 e CSS3**, garantindo um design moderno e intuitivo.  
 
-## 📌 Objetivo do Trabalho
-Criar uma página web simples e responsiva utilizando **HTML5 e CSS3**, hospedada no **GitHub Pages**, 
-para avaliação na disciplina.
+🔗 **Acesse o site publicado:** [Lobo-Guará](https://schlorke.github.io/Lobo-Guara/)  
 
-## 🚀 Tecnologias Utilizadas
-✅ **HTML5** - Estrutura semântica da página  
-✅ **CSS3** - Estilização moderna e responsiva  
-✅ **GitHub Pages** - Hospedagem do projeto  
+---
 
-## 📄 Acesso ao Site
-Acesse a página online através do link:  
-🔗 [Lobo-Guará - Website](https://schlorke.github.io/Lobo-Guara/)
+## 📂 Tecnologias Utilizadas  
+✅ **HTML5** - Estruturação semântica da página  
+✅ **CSS3** - Estilização responsiva e moderna  
+✅ **GitHub Pages** - Hospedagem gratuita do projeto  
 
-## 📖 Mais Informações
-Para mais detalhes sobre o Lobo-Guará, acesse a [Wikipedia](https://pt.wikipedia.org/wiki/Lobo-guar%C3%A1).
+---
+
+## 📌 Funcionalidades  
+- 🐺 Exibição de informações sobre o **Lobo-Guará**  
+- 🎨 **Design responsivo** para **desktop e mobile**  
+- 📌 **Header fixo e intuitivo** para navegação entre os sites **Carta** e **Lobo-Guará**  
+- 🌍 **Publicação automática** via **GitHub Pages**  
+
+---
+
+## 🛠️ Como Executar Localmente  
+1. **Clone o repositório**:  
+   ```bash
+   git clone https://github.com/Schlorke/Lobo-Guara.git
