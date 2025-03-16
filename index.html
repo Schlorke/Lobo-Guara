@@ -7,12 +7,19 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Header fixo e responsivo -->
     <header>
-      <h1>Lobo-Guará</h1>
+      <nav>
+        <ul>
+          <li><a href="https://schlorke.github.io/Lobo-Guara/" id="lobo-link">Lobo-Guará</a></li>
+          <li><a href="https://schlorke.github.io/Carta/" id="carta-link">Carta</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
       <section class="animal-info">
+        <h1>Lobo-Guará</h1>
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Chrysocyon_brachyurus_205682420.jpg/1280px-Chrysocyon_brachyurus_205682420.jpg"
           alt="Imagem de um lobo-guará"
@@ -38,5 +45,19 @@
         Web Development - 24/02/2025
       </p>
     </footer>
+
+    <!-- Script para destacar o link da página ativa -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const links = document.querySelectorAll("nav ul li a");
+        const currentURL = window.location.href;
+
+        links.forEach(link => {
+          if (currentURL.includes(link.getAttribute("href"))) {
+            link.classList.add("active");
+          }
+        });
+      });
+    </script>
   </body>
 </html>
