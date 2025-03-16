@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f5ee;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #5a3d2b;
+  color: white;
+  padding: 20px;
+}
+
+.animal-info {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.animal-info img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.animal-info img:hover {
+  transform: scale(1.05);
+}
+
+.animal-info p {
+  font-size: 18px;
+  color: #333;
+  margin: 15px 0;
+}
+
+.wiki-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5a3d2b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.wiki-btn:hover {
+  background-color: #3c271b;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #5a3d2b;
+  color: white;
+}
