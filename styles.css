@@ -18,14 +18,14 @@ body {
 
 /* Estilização do Header */
 header {
-  display: flex;
-  flex-direction: column;
   position: fixed;
   width: 100%;
-  padding: 15px;
+  padding: 15px 0;
+  top: 0;
+  left: 0;
   text-align: center;
-  background-color: #5a3d2b;
   z-index: 1000;
+  background-color: #5a3d2b;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
