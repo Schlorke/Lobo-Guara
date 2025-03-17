@@ -23,7 +23,6 @@ header {
   position: fixed;
   width: 100%;
   padding: 15px;
-  margin-bottom: 10px;
   text-align: center;
   background-color: #5a3d2b;
   z-index: 1000;
@@ -59,7 +58,7 @@ main {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
+  margin-top: 87px;
   width: 100%;
   height: 100%;
   justify-content: center;
