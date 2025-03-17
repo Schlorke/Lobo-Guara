@@ -58,7 +58,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px; /* Evita sobreposição com o header */
+  padding-top: 40px; /* Evita sobreposição com o header */
 }
 
 /* Seção de informações do animal */
