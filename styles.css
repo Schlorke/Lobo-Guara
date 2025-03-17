@@ -58,11 +58,10 @@ main {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-top: 90px;
+  margin: 5rem 0 5rem 0;
   width: 100%;
   height: 100%;
   justify-content: center;
-  overflow: hidden; /* Controla o overflow */
 }
 
 /* Seção de informações do animal */
