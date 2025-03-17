@@ -122,7 +122,8 @@ footer {
   }
 
   main {
-    padding-top: 40px; /* Evita sobreposição com o header */
+    position: relative;
+    padding-top: 80px; /* Evita sobreposição com o header */
   }
   .animal-info {
     width: 90%;
