@@ -60,6 +60,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0; /* Remove qualquer padding interno */
+  margin: 0 auto; /* Centraliza o conteúdo da main */
 }
 
 /* Seção de informações do animal */
