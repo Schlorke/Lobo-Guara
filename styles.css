@@ -26,7 +26,6 @@ header {
   text-align: center;
   background-color: #5a3d2b;
   z-index: 1000;
-  margin-bottom: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -56,25 +55,26 @@ nav ul li a.active {
 
 /* Conteúdo Principal */
 main {
-  width: 100%;
-  flex: 1; /* Faz o main ocupar todo o espaço restante */
   display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
   justify-content: center;
-  align-items: center;
-  padding: 0; /* Remove qualquer padding interno */
-  margin: 0 auto; /* Centraliza o conteúdo da main */
+  overflow: hidden; /* Controla o overflow */
 }
 
 /* Seção de informações do animal */
 .animal-info {
+  position: relative;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   max-width: 600px;
   background-color: white;
   padding: 20px;
-  padding-top: 40px; /* Evita sobreposição com o header */
+  align-self: center;
   border-radius: 10px;
-  text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   gap: 20px;
 }
@@ -116,7 +116,6 @@ footer {
   background-color: #5a3d2b;
   color: white;
   text-align: center;
-  margin-top: auto;
 }
 
 /* Responsividade para telas menores */
