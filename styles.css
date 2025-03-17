@@ -55,12 +55,11 @@ nav ul li a.active {
 
 /* Conteúdo Principal */
 main {
+  width: 100%;
   flex: 1; /* Faz o main ocupar todo o espaço restante */
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-around;
-  gap: 10px;
 }
 
 /* Seção de informações do animal */
