@@ -58,7 +58,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 40px; /* Evita sobreposição com o header */
 }
 
 /* Seção de informações do animal */
@@ -68,6 +67,7 @@ main {
   max-width: 600px;
   background-color: white;
   padding: 20px;
+  padding-top: 40px; /* Evita sobreposição com o header */
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -121,6 +121,9 @@ footer {
     gap: 15px;
   }
 
+  main {
+    padding-top: 40px; /* Evita sobreposição com o header */
+  }
   .animal-info {
     width: 90%;
     padding: 15px;
